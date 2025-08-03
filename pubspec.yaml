@@ -1,0 +1,35 @@
+name: mi_parque_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/home/logo.png
+     - assets/home/apoyar.png
+     - assets/home/postular.png
+     - assets/home/areasVerdes.png
+     - assets/nosotros/nosotros.jpg
+     - assets/quehacemos/queHacemos.jpg
+     - assets/queHacemos/voluntariado.jpg
+     - assets/historia/historia.jpg
+     - assets/equipo/equipo.jpg
+     - assets/equipo/directorEjecutivo.jpg
+     - assets/equipo/directorProyecto.jpg
+     - assets/equipo/alena.jpg
+     - 'assets/nosApoyan/nosApoyan.jpg'
+     - assets/nosApoyan/transbank.png
