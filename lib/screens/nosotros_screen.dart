@@ -3,7 +3,7 @@ import '../widgets/menu_lateral.dart';
 import '../widgets/encabezado.dart';
 
 class NosotrosScreen extends StatefulWidget {
-  const NosotrosScreen({super.key});
+  NosotrosScreen({super.key});
 
   @override
   State<NosotrosScreen> createState() => EstadoNosotrosScreen();
@@ -57,7 +57,7 @@ class EstadoNosotrosScreen extends State<NosotrosScreen> {
                               ),
                               SizedBox(height: 10),
                               Text(
-                                'Mejoramos la calidad de vida\n en barrios vulnerables a\n través de un proceso participativo de diseño,\nconstrucción y activación de\n áreas verdes para el\n encuentro.',
+                                'Mejoramos la calidad de vida\n en barrios vulnerables a\n través de un proceso\n participativo de diseño,\nconstrucción y activación de\n áreas verdes para el\n encuentro.',
                                 style: TextStyle(fontSize: 16, color: Colors.white),
                               ),
                             ],

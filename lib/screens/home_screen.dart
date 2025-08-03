@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     SizedBox(height: 20),
                     Text('Dona Áreas Verdes', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), textAlign: TextAlign.center),
                     SizedBox(height: 5),
-                    Text('Escoge una tarjeta digital, haz una donación \nen nombre detu ser querido y personalízala.', textAlign: TextAlign.center),
+                    Text('Escoge una tarjeta digital, haz una donación \nen nombre de tu ser querido y personalízala.', textAlign: TextAlign.center),
                   ],
                 ),
               ),

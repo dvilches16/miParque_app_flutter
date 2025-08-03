@@ -56,13 +56,14 @@ class EstadoQueHacemosScreen extends State<QueHacemosScreen> {
                               ),
                               SizedBox(height: 10),
                               Text(
-                                'Buscamos mejorar la calidad de vida\n'
-                                'de quienes más lo necesitan,\n'
-                                'a través de un proceso participativo\n'
-                                'de diseño, construcción y activación\n'
-                                'de áreas verdes que fomenten\n'
-                                'el encuentro, la identidad\n'
-                                'y el orgullo barrial.',
+                                'Buscamos mejorar la'
+                                'calidad de vida de quienes'
+                                'más lo necesitan,a través'
+                                'de un proceso participativo\n'
+                                'de diseño, construcción y\n'
+                                'activación\n'
+                                'de áreas verdes',
+
                                 style: TextStyle(
                                   fontSize: 16,
                                   color: Colors.white,
@@ -106,11 +107,10 @@ class EstadoQueHacemosScreen extends State<QueHacemosScreen> {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 20),
             child: Text(
-              'Mejorar la calidad de vida en barrios vulnerables a través de un '
-              'proceso participativo de diseño, construcción y activación de áreas '
-              'verdes para el encuentro.\n\n'
-              'Soñamos con un país donde todas las personas se sientan orgullosas '
-              'de sus barrios. Esa es nuestra visión.',
+              'Nuestra Misión es Mejorar la calidad de vida en barrios vulnerables a través de un '
+              'proceso participativo de\n diseño, construcción y activación de áreas verdes para el\n'
+              'encuentro. \n\nSoñamos con un país donde todas las\n personas se sientan orgullosasde sus barrios. Esa es\n'
+              'nuestra visión.',
               style: TextStyle(
                 fontSize: 16,
                 color: Colors.black87,

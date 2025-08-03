@@ -66,7 +66,7 @@ class EstadoApoyanScreen extends State<ApoyanScreen> {
                               ),
                               SizedBox(height: 10),
                               Text(
-                                'Gracias a las relaciones de\ncolaboración, hay organizaciones\nque nos apoyan de forma\nconstante. Si quieres ser parte,\nescríbenos a:\nvstefano@miparque.cl',
+                                'Gracias a las relaciones de\ncolaboración, hay organizaciones\nque nos apoyan de manera\nconstante. Si quieres ser parte,\nescríbenos a:\nvstefano@miparque.cl',
                                 style: TextStyle(
                                   fontSize: 16,
                                   color: Colors.white,
