@@ -61,24 +61,30 @@ class _HistoriaScreenState extends State<HistoriaScreen> {
                       color: Colors.white,
                       padding: EdgeInsets.symmetric(horizontal: 20),
                       child: Text(
-                        'Percatándose de que en materia de generación\n'
-                        'de ciudad y barrios, tanto el estado como varias\n'
-                        'organizaciones de la sociedad civil habían\n'
-                        'puesto su atención sobre todo en el tema de la\n'
-                        'vivienda, es que se propone trabajar en el espacio público. Así nace\n'
-                        'Fundación Mi Parque, cuyo objetivo es mejorar\n'
-                        'las áreas verdes del “Chile urbano”.\n\n'
-                        'Luego de adquirir en 2008 la personalidad jurídica, se\n'
-                         'comenzó a abrir un amplio horizonte de oportunidades\n'
-                        'de trabajo a lo largo de Chile. Junto con los proyectos\n'
-                        'comenzó a aumentar el equipo, el cual a medida que \n'
-                        'aumentaba la complejidad de las intervenciones se\n'
-                        'convertía en un grupo más interdisciplinario. Del mismo\n'
-                        ' modo, cada vez más amigos, socios y voluntarios se\n'
-                        'fueron sumando a nuestra misión, así como muchas\n'
-                        'empresas privadas se comprometieron y han permitido\n'
-                        'hacer realidad el que miles de chilenos puedan contar\n'
-                        'con una nueva plaza o parque en sus barrios.',
+                        'Percatándose de que en materia\n'
+                        'de generación de ciudad y barrios, tanto el\n'
+                        'estado como varias organizaciones de la\n'
+                        'sociedad civil habían puesto su atención\n' 
+                        'sobre todo en el tema de la vivienda es que\n'
+                        'se propone trabajar en el espacio público.\n' 
+                        'Así nace Fundación Mi Parque, iniciativa\n'
+                        'cuyo objetivo es mejorar las áreas verdes del\n'
+                         '“Chile urbano”.\n\n'
+                        'Luego de adquirir en 2008 la personalidad\n' 
+                        'jurídica, se comenzó a abrir un amplio\n'
+                        'horizonte de oportunidades de trabajo a lo \n'
+                        'largo de Chile. Junto con los proyectos\n'
+                        'comenzó a aumentar el equipo, el cual a \n'
+                        'medida que aumentaba la complejidad de\n'
+                        'las intervenciones se convertía en un grupo\n' 
+                        'más interdisciplinario. Del mismo modo,\n' 
+                        'cada vez más amigos, socios y voluntarios\n'
+                        'se fueron sumando a nuestra misión, así\n' 
+                        'como muchas empresas privadas\n'
+                        'se comprometieron y han permitido hacer\n'
+                        'realidad el que miles de chilenos puedan \n'
+                        'contar\n con una nueva plaza o parque en sus\n'
+                         'barrios.',
                         style: TextStyle(fontSize: 16, color: Colors.black87, height: 1.5),
                         textAlign: TextAlign.justify,
                       ),

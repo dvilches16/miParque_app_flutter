@@ -70,7 +70,7 @@ class EstadoEquipoScreen extends State<EquipoScreen> with TickerProviderStateMix
                             SizedBox(height: 10),
                             Text(
                               'Conoce a quienes fundaron esta\n'
-                              'organización,\n su directorio y el\n'
+                              'organización, su directorio y el\n'
                               'equipo que trabaja diariamente\n' 
                               'por mejorar la calidad de vida de\n'
                               'quienes más lo necesitan.',

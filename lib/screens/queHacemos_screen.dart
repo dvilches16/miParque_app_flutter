@@ -107,10 +107,14 @@ class EstadoQueHacemosScreen extends State<QueHacemosScreen> {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 20),
             child: Text(
-              'Nuestra Misión es Mejorar la calidad de vida en barrios vulnerables a través de un '
-              'proceso participativo de\n diseño, construcción y activación de áreas verdes para el\n'
-              'encuentro. \n\nSoñamos con un país donde todas las\n personas se sientan orgullosasde sus barrios. Esa es\n'
-              'nuestra visión.',
+              'Nuestra Misión es Mejorar la calidad de vida\n' 
+              'en barrios vulnerables a través de un\n'
+              'proceso participativo de diseño\n'
+              'construcción y activación de áreas verdes\n'
+              'para el encuentro.Soñamos con un país\n'
+              'donde todas las personas se sientan\n' 
+              'orgullosasde sus barrios. Esa es nuestra\n' 
+              'visión.',
               style: TextStyle(
                 fontSize: 16,
                 color: Colors.black87,
