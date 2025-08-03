@@ -3,7 +3,7 @@ import '../widgets/menu_lateral.dart';
 import '../widgets/encabezado.dart';
 
 class ApoyanScreen extends StatefulWidget {
-  const ApoyanScreen({super.key});
+  ApoyanScreen({super.key});
 
   @override
   State<ApoyanScreen> createState() => EstadoApoyanScreen();
@@ -16,7 +16,7 @@ class EstadoApoyanScreen extends State<ApoyanScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: claveScaffold,
-      endDrawer: const Menulateral(),
+      endDrawer: Menulateral(),
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
@@ -42,9 +42,9 @@ class EstadoApoyanScreen extends State<ApoyanScreen> {
                           width: double.infinity,
                           height: 300,
                           color: Colors.green.withOpacity(0.5),
-                          padding: const EdgeInsets.symmetric(horizontal: 30),
+                          padding: EdgeInsets.symmetric(horizontal: 30),
                           alignment: Alignment.centerLeft,
-                          child: const Column(
+                          child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
@@ -77,10 +77,10 @@ class EstadoApoyanScreen extends State<ApoyanScreen> {
                         ),
                       ],
                     ),
-                    const SizedBox(height: 40),
+                    SizedBox(height: 40),
                     Column(
                       children: [
-                        const Text(
+                        Text(
                           'Han trabajado con nosotros',
                           style: TextStyle(
                             fontSize: 22,
@@ -88,15 +88,15 @@ class EstadoApoyanScreen extends State<ApoyanScreen> {
                             color: Colors.green,
                           ),
                         ),
-                        const SizedBox(height: 20),
+                        SizedBox(height: 20),
                         Image.asset(
                           'assets/nosApoyan/transbank.png',
                           height: 100,
                         ),
-                        const SizedBox(height: 8),
+                        SizedBox(height: 8),
                       ],
                     ),
-                    const SizedBox(height: 50),
+                    SizedBox(height: 50),
                   ],
                 ),
               ),

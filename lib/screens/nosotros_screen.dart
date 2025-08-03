@@ -17,7 +17,7 @@ class EstadoNosotrosScreen extends State<NosotrosScreen> {
     return Scaffold(
       key: claveScaffold,
       backgroundColor: Colors.white,
-      endDrawer: const Menulateral(),
+      endDrawer: Menulateral(),
       body: SafeArea(
         child: Column(
           children: [
@@ -40,9 +40,9 @@ class EstadoNosotrosScreen extends State<NosotrosScreen> {
                           height: 350,
                           width: double.infinity,
                           color: Colors.green.withOpacity(0.5),
-                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          padding: EdgeInsets.symmetric(horizontal: 20),
                           alignment: Alignment.centerLeft,
-                          child: const Column(
+                          child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -65,29 +65,29 @@ class EstadoNosotrosScreen extends State<NosotrosScreen> {
                         ),
                       ],
                     ),
-                    const SizedBox(height: 30),
+                    SizedBox(height: 30),
                     Center(
                       child: Column(
                         children: [
-                          const SizedBox(height: 20),
+                          SizedBox(height: 20),
                           _botonSeccion(
                             texto: '¿Qué hacemos?',
                             ruta: '/queHacemos',
                             contexto: context,
                           ),
-                          const SizedBox(height: 20),
+                          SizedBox(height: 20),
                           _botonSeccion(
                             texto: 'Historia',
                             ruta: '/historia',
                             contexto: context,
                           ),
-                          const SizedBox(height: 20),
+                          SizedBox(height: 20),
                           _botonSeccion(
                             texto: 'Equipo',
                             ruta: '/equipo',
                             contexto: context,
                           ),
-                          const SizedBox(height: 20),
+                          SizedBox(height: 20),
                           _botonSeccion(
                             texto: 'Nos Apoyan',
                             ruta: '/apoyan',
@@ -112,10 +112,10 @@ class EstadoNosotrosScreen extends State<NosotrosScreen> {
       style: OutlinedButton.styleFrom(
         side: BorderSide(color: Colors.grey.shade400),
         backgroundColor: Colors.white,
-        minimumSize: const Size(320, 50),
-        shape: const RoundedRectangleBorder(borderRadius: BorderRadius.zero),
+        minimumSize: Size(320, 50),
+        shape:  RoundedRectangleBorder(borderRadius: BorderRadius.zero),
       ),
-      child: Text(texto, style: const TextStyle(color: Colors.grey)),
+      child: Text(texto, style: TextStyle(color: Colors.grey)),
     );
   }
 }

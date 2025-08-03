@@ -3,7 +3,7 @@ import '../widgets/menu_lateral.dart';
 import '../widgets/encabezado.dart';
 
 class EquipoScreen extends StatefulWidget {
-  const EquipoScreen({super.key});
+  EquipoScreen({super.key});
 
   @override
   State<EquipoScreen> createState() => EstadoEquipoScreen();
@@ -30,7 +30,7 @@ class EstadoEquipoScreen extends State<EquipoScreen> with TickerProviderStateMix
     return Scaffold(
       key: claveScaffold,
       backgroundColor: Colors.white,
-      endDrawer: const Menulateral(),
+      endDrawer: Menulateral(),
       body: SafeArea(
         child: Column(
           children: [
@@ -52,9 +52,9 @@ class EstadoEquipoScreen extends State<EquipoScreen> with TickerProviderStateMix
                         height: 350,
                         width: double.infinity,
                         color: Colors.green.withOpacity(0.5),
-                        padding: const EdgeInsets.symmetric(horizontal: 20),
+                        padding: EdgeInsets.symmetric(horizontal: 20),
                         alignment: Alignment.centerLeft,
-                        child: const Column(
+                        child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -77,13 +77,13 @@ class EstadoEquipoScreen extends State<EquipoScreen> with TickerProviderStateMix
                       ),
                     ],
                   ),
-                  const SizedBox(height: 30),
+                  SizedBox(height: 30),
                   TabBar(
                     controller: controladorPestanas,
                     labelColor: Colors.green,
                     unselectedLabelColor: Colors.grey,
                     indicatorColor: Colors.green,
-                    tabs: const [
+                    tabs: [
                       Tab(text: 'Equipo'),
                       Tab(text: 'Fundadores'),
                       Tab(text: 'Directorio'),
@@ -94,8 +94,8 @@ class EstadoEquipoScreen extends State<EquipoScreen> with TickerProviderStateMix
                       controller: controladorPestanas,
                       children: [
                         _contenidoEquipo(),
-                        const Center(child: Text('Contenido de los fundadores')),
-                        const Center(child: Text('Contenido del directorio')),
+                        Center(child: Text('Contenido de los fundadores')),
+                        Center(child: Text('Contenido del directorio')),
                       ],
                     ),
                   ),
@@ -110,7 +110,7 @@ class EstadoEquipoScreen extends State<EquipoScreen> with TickerProviderStateMix
 
   Widget _contenidoEquipo() {
     return ListView(
-      padding: const EdgeInsets.symmetric(vertical: 30),
+      padding: EdgeInsets.symmetric(vertical: 30),
       children: [
         _perfilMiembro(
           imagen: 'directorEjecutivo.jpg',
@@ -133,7 +133,7 @@ class EstadoEquipoScreen extends State<EquipoScreen> with TickerProviderStateMix
 
   Widget _perfilMiembro({required String imagen, required String cargo, required String nombre}) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 80, vertical: 32),
+      padding: EdgeInsets.symmetric(horizontal: 80, vertical: 32),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -144,10 +144,10 @@ class EstadoEquipoScreen extends State<EquipoScreen> with TickerProviderStateMix
               child: Image.asset('assets/equipo/$imagen', fit: BoxFit.cover),
             ),
           ),
-          const SizedBox(height: 12),
-          Text(cargo, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
-          const SizedBox(height: 4),
-          Text(nombre, style: const TextStyle(fontSize: 16, color: Colors.green)),
+          SizedBox(height: 12),
+          Text(cargo, style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
+          SizedBox(height: 4),
+          Text(nombre, style: TextStyle(fontSize: 16, color: Colors.green)),
         ],
       ),
     );

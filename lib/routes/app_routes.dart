@@ -12,16 +12,16 @@ class AppRoutes {
   static const rutaInicial = '/home';
 
   static Map<String, Widget Function(BuildContext)> rutas = {
-    '/home': (BuildContext context) => const HomeScreen(),
-    '/nosotros': (BuildContext context) => const NosotrosScreen(),
-    '/queHacemos': (BuildContext context) => const QueHacemosScreen(),
-    '/historia': (BuildContext context) => const HistoriaScreen(),
-    '/equipo': (BuildContext context) => const EquipoScreen(),
-    '/apoyan': (BuildContext context) => const ApoyanScreen(),
-    '/error': (BuildContext context) => const ErrorScreen(),
+    '/home': (BuildContext context) => HomeScreen(),
+    '/nosotros': (BuildContext context) => NosotrosScreen(),
+    '/queHacemos': (BuildContext context) => QueHacemosScreen(),
+    '/historia': (BuildContext context) => HistoriaScreen(),
+    '/equipo': (BuildContext context) => EquipoScreen(),
+    '/apoyan': (BuildContext context) => ApoyanScreen(),
+    '/error': (BuildContext context) => ErrorScreen(),
   };
 
   static Route<dynamic> generarRuta(RouteSettings configuracion) {
-    return MaterialPageRoute(builder: (context) => const ErrorScreen());
+    return MaterialPageRoute(builder: (context) => ErrorScreen());
   }
 }

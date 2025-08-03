@@ -3,7 +3,7 @@ import '../widgets/menu_lateral.dart';
 import '../widgets/encabezado.dart';
 
 class HistoriaScreen extends StatefulWidget {
-  const HistoriaScreen({super.key});
+  HistoriaScreen({super.key});
 
   @override
   State<HistoriaScreen> createState() => _HistoriaScreenState();
@@ -17,7 +17,7 @@ class _HistoriaScreenState extends State<HistoriaScreen> {
     return Scaffold(
       key: _scaffoldKey,
       backgroundColor: Colors.white,
-      endDrawer: const Menulateral(),
+      endDrawer: Menulateral(),
       body: SafeArea(
         child: Column(
           children: [

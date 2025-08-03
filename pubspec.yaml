@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  font_awesome_flutter: ^10.9.0
+
 
 dev_dependencies:
   flutter_test:
@@ -24,7 +26,7 @@ flutter:
      - assets/home/postular.png
      - assets/home/areasVerdes.png
      - assets/nosotros/nosotros.jpg
-     - assets/quehacemos/queHacemos.jpg
+     - assets/queHacemos/queHacemos.jpg
      - assets/queHacemos/voluntariado.jpg
      - assets/historia/historia.jpg
      - assets/equipo/equipo.jpg

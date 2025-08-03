@@ -3,7 +3,7 @@ import '../widgets/menu_lateral.dart';
 import '../widgets/encabezado.dart';
 
 class QueHacemosScreen extends StatefulWidget {
-  const QueHacemosScreen({super.key});
+  QueHacemosScreen({super.key});
 
   @override
   State<QueHacemosScreen> createState() => EstadoQueHacemosScreen();
@@ -17,7 +17,7 @@ class EstadoQueHacemosScreen extends State<QueHacemosScreen> {
     return Scaffold(
       key: claveScaffold,
       backgroundColor: Colors.white,
-      endDrawer: const Menulateral(),
+      endDrawer: Menulateral(),
       body: SafeArea(
         child: Column(
           children: [
@@ -40,9 +40,9 @@ class EstadoQueHacemosScreen extends State<QueHacemosScreen> {
                           height: 350,
                           width: double.infinity,
                           color: Colors.green.withOpacity(0.5),
-                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          padding: EdgeInsets.symmetric(horizontal: 20),
                           alignment: Alignment.centerLeft,
-                          child: const Column(
+                          child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -73,7 +73,7 @@ class EstadoQueHacemosScreen extends State<QueHacemosScreen> {
                         ),
                       ],
                     ),
-                    const SizedBox(height: 30),
+                    SizedBox(height: 30),
                     _bloqueMision(),
                   ],
                 ),
@@ -92,7 +92,7 @@ class EstadoQueHacemosScreen extends State<QueHacemosScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Padding(
+          Padding(
             padding: EdgeInsets.fromLTRB(20, 30, 20, 10),
             child: Text(
               'Nuestra misión',
@@ -103,7 +103,7 @@ class EstadoQueHacemosScreen extends State<QueHacemosScreen> {
               ),
             ),
           ),
-          const Padding(
+          Padding(
             padding: EdgeInsets.symmetric(horizontal: 20),
             child: Text(
               'Mejorar la calidad de vida en barrios vulnerables a través de un '
@@ -118,7 +118,7 @@ class EstadoQueHacemosScreen extends State<QueHacemosScreen> {
               ),
             ),
           ),
-          const SizedBox(height: 20),
+          SizedBox(height: 20),
           ClipRRect(
             child: Image.asset(
               'assets/queHacemos/voluntariado.jpg',
@@ -127,7 +127,7 @@ class EstadoQueHacemosScreen extends State<QueHacemosScreen> {
               height: 200,
             ),
           ),
-          const SizedBox(height: 40),
+          SizedBox(height: 40),
         ],
       ),
     );
